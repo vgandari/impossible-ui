@@ -7,7 +7,7 @@
 		"ui",
 		"theme"
 	],
-	"repository": "https://github.com/atom/impossible-ui",
+	"repository": "https://github.com/vgandari/impossible-ui",
 	"license": "MIT",
 	"engines": {
 		"atom": ">=1.0.0 <2.0.0"
