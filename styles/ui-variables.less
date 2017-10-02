@@ -31,7 +31,7 @@
 
 @background-color-highlight: darken(@base-background-color, 10%);
 @background-color-selected:  @base-background-color;
-@app-background-color:       @base-background-color;
+@app-background-color:       darken(@base-background-color, 10%);
 
 // Base colors
 @base-background-color: hsl(262, 12%, 12%);
@@ -41,26 +41,30 @@
 @pane-item-background-color: darken(@base-background-color,30%);
 @pane-item-border-color:     @base-border-color;
 
-// ??
+// background color for text imputs (e.g. find and replace)
 @input-background-color: darken(@base-background-color,30%);
 @input-border-color:     @base-border-color;
 
-// What are panels?
+// Tree view tab color, settings packages background colors
 @tool-panel-background-color: @base-background-color;
 @tool-panel-border-color:     @base-border-color;
 
+// ??
 @inset-panel-background-color: lighten(@base-background-color, 4%);
 @inset-panel-border-color:     @base-border-color;
 
+// ??
 @panel-heading-background-color: lighten(@base-background-color, 4%);
 @panel-heading-border-color:     @base-border-color;
 
-@overlay-background-color: lighten(@base-background-color, 5%);
+// command pallet and dropdown/tooltip colors
+@overlay-background-color: @base-background-color;
 @overlay-border-color:     @base-border-color;
 
-@button-background-color:          lighten(@base-background-color, 10%);
-@button-background-color-hover:    lighten(@button-background-color, 12%);
-@button-background-color-selected: @button-background-color-hover;
+// button colors
+@button-background-color:          hsl(120, 1%, 21%);//lighten(@base-background-color, 10%);
+@button-background-color-hover:    lighten(@button-background-color, 15%);
+@button-background-color-selected: lighten(@button-background-color, 10%);
 @button-border-color:              @base-border-color;
 
 // tabs
