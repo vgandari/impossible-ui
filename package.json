@@ -59,7 +59,7 @@
     "url": "git+https://github.com/vgandari/impossible-ui.git"
   },
   "theme": "ui",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "_atomModuleCache": {
     "version": 1,
     "dependencies": [],
